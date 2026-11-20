@@ -1,0 +1,42 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 字节码与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 测试与工具缓存
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Scala / Metals 语言服务缓存
+.metals/
+.bloop/
+
+# 环境变量与密钥
+.env
+
+# Trae 生成的共享包
+.trae-html-share-packages/
+
+# 日志
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
